@@ -2,7 +2,7 @@
     color: white;
     
     min-height: 200px;
-    
+    margin-left: 15%;
 
     
 }
@@ -21,6 +21,10 @@
     
     
 }
+#Img36:hover{
+ opacity: .7;
+}
+
 #Img1{
     height: 150px;
     width: 150px;
@@ -38,12 +42,43 @@
   width: 180px;
   height: 180px;
 }
-.container_inc:hover{
-    opacity: .7;   
-}
 
 @media screen and (max-width: 750px) {
     .sponsorx img{
         width: 80%;
      
+    }
+    }
+#Imgx{
+    background-color: blue;
+    margin-left: 5%;
+}
+@media screen and (max-width:600px){
+    .timeline_image {
+        height: 500px;
+        background-position:bottom;
+        margin-top: -52%;
+        margin-bottom: 0px;
+    }
+}
+<!-- changes 25 jan 2019 4pm -->
+
+#container_theme{
+    background-color: #fff;
+    
+}
+#theme{
+    color: #6f42c1;
+}
+.themes{
+    color: #6f42c1;
+    font-size: 25px;
+    padding-top: 0px;
+}
+
+#container_theme img {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    height: 350px;
     }
